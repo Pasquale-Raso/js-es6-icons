@@ -1,0 +1,25 @@
+#form {
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.titlefilter {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+main {
+  height: calc(100vh - 119.31px);
+}
+
+.animal {
+  color: blue;
+}
+.vegetable {
+  color: goldenrod;
+}
+.user {
+  color: purple;
+}
