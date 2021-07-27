@@ -8,7 +8,7 @@ const renderIcons = (iconsArray, targhetElement) => {
     }
     iconsTemplate += `
         <div class="col col-sm-4 col-md-2 ${hasOffset}">
-            <div class="card">
+            <div class="card h-100">
                 <div class="card-body">
                     <i class="${icon.family} ${icon.prefix}${icon.name}
                     fa-2x ${icon.type}"></i>

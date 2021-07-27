@@ -23,3 +23,6 @@ main {
 .user {
   color: purple;
 }
+body {
+  background-color: grey;
+}
