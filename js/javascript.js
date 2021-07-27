@@ -33,9 +33,9 @@ selectField.addEventListener("change", () => {
   const filterValue = selectField.value;
 
   if (filterValue === "all") {
-    renderIcons(icons, inconsSection);
+    renderIcons(icons, iconsSection);
     return;
   }
   const filteredIcons = icons.filter((icon) => filterValue === icon.type);
-  renderIcons = (filteredIcons, iconnsSection);
+  renderIcons(filteredIcons, iconsSection);
 });
